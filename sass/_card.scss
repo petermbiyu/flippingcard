@@ -31,7 +31,8 @@
     }
 
     .cards {
-        width: 375px;
+        width: 100%;
+        max-width: 375px;
         height: 225px;
         z-index: 1;
         position: relative;
