@@ -26,3 +26,9 @@ $second-color: #222;
     align-items: flex-end;
     justify-content: center;
 }
+
+@mixin small-screen {
+    @media screen and (min-width: 550px) {
+        @content;
+    }
+}
